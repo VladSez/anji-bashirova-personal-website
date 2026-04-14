@@ -1,4 +1,5 @@
 import { Fragment } from "react";
+import { FooterYear } from "./footer-year";
 
 const CONTACT_EMAIL = "mebashirova@gmail.com";
 
@@ -47,7 +48,7 @@ export function Footer() {
       </section>
 
       <small className="block mt-10">
-        <time>{new Date().getFullYear()}</time> © Anzhelika Bashirova
+        <FooterYear /> © Anzhelika Bashirova
       </small>
     </footer>
   );
